@@ -29,6 +29,9 @@ ul{
     justify-content: space-around;
     font-size: 30px;
 }
+ul.show{
+    display: block;
+}
 li{
    text-decoration: none;
 }
@@ -132,4 +135,59 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+.hamburger{
+    display: none;
+}
+.hamburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width: 1000px){
+    .hamburger{
+        display: block;
+        border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+
+    }
+    ul{
+        display: none;
+        background-color: crimson;
+        margin: 0px;
+
+    }
+    ul.show{
+        display: block;
+    }
+    nav {
+        display:flex;
+        flex-direction: column-reverse;
+        background-color: crimson;
+
+    }
+    .logo {
+        display: none;
+    }
+    
+}
+.twitter-image{
+    background-color: white;
+    width: 100px;
+    border-radius: 150px;
+    margin-right: 80px;
+    
+    
+}
+.linkedIn-image{
+    background-color: white;
+    width: 100px;
+    border-radius: 150px;
+}
+.github-image{
+    background-color: white;
+    width: 100px;
+    border-radius: 150px;
 }

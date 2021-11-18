@@ -22,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
 ul{
     display: flex;
     list-style-type: none;
@@ -58,6 +59,7 @@ p{
     justify-content: space-between;
     align-items: center;    
 }
+
 .hero-text{
     margin-left: 80px;
     margin-bottom: 200px;
@@ -181,15 +183,29 @@ a{
     
     
 }
+.twitter-image:hover{
+    background-color: rgba(19, 154, 245, 0.945);
+}
 .linkedIn-image{
     background-color: white;
     width: 100px;
     border-radius: 150px;
 }
+.linkedIn-image:hover{
+    background-color: blue;
+
+}
 .github-image{
     background-color: white;
     width: 100px;
     border-radius: 150px;
+}
+.github-image:hover{
+    background-color: darkgrey;
+
+}
+.youtube-image:hover{
+    background-color: crimson;
 }
 .youtube-image{
     background-color: white;

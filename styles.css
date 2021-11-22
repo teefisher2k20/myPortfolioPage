@@ -3,21 +3,20 @@ body{
 }
 section{
 
-    background-color: gray;
+    background-image: radial-gradient(circle, darkgrey, white);
     border: solid red 2px;
 }
 .hero{
     background-image: radial-gradient(circle, darkgrey, black);
     height: 100vh;
-    color: crimson;
+    color: white;
     font-size: 40px;
 }
 footer{
     padding: 60px;
-    background-color: black;
+    background-image: radial-gradient(circle, darkgrey, black);
     color: white;
     text-align: center;
-    padding: 50px;
 }
 nav{
     display: flex;

@@ -6,6 +6,15 @@ section{
     background-image: radial-gradient(circle, darkgrey, white);
     border: solid red 2px;
 }
+.name{
+    padding-left: 80px;
+    padding-top: 30px;
+    color: crimson;
+}
+.options{
+    padding-right: 80px;
+    padding-top: 10px;
+}
 .hero{
     background-image: radial-gradient(circle, darkgrey, black);
     height: 100vh;
@@ -15,7 +24,7 @@ section{
 footer{
     padding: 60px;
     background-image: radial-gradient(circle, darkgrey, black);
-    color: white;
+    color:white;
     text-align: center;
 }
 nav{
@@ -85,6 +94,7 @@ p{
 }
 .socials{
     padding-bottom: 200px;
+    padding-right: 80px;
 }
 .sub-section{
     display: flex;
@@ -98,7 +108,7 @@ p{
     padding: 80px;
 }
 .headshot{
-    width: 300px;
+    width: 250px;
     border-radius: 150px;
 }
 .headshot-container{
@@ -106,7 +116,7 @@ p{
     align-items: center;
 }
 .project-card{
-    width: 300px;
+    width: 350px;
     height: 500px;
     box-shadow: 5px 5px 20px;
     margin: 10px;
@@ -173,6 +183,7 @@ a{
     }
     .logo {
         display: none;
+        
     }
     
 }
@@ -213,3 +224,4 @@ a{
     width: 100px;
     border-radius: 150px
 }
+

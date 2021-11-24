@@ -224,4 +224,8 @@ a{
     width: 100px;
     border-radius: 150px
 }
+textarea {
+width: 250px;
+height: 10em;
+}
 

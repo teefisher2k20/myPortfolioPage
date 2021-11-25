@@ -61,6 +61,7 @@ p{
 .subtext{
     font-size: 15px;
     font-weight: 300;
+    padding: 10px;
 
 }
 .hero-area{
@@ -227,5 +228,6 @@ a{
 textarea {
 width: 250px;
 height: 10em;
+border: 2px red solid
 }
 

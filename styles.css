@@ -71,6 +71,14 @@ p{
     justify-content: space-between;
     align-items: center;    
 }
+@media only screen and (max-width: 1000px){
+    .hero-area{
+        display: flex;
+        flex-wrap:  wrap;
+    }
+}
+    
+
 
 .hero-text{
     margin-left: 100px;
@@ -98,10 +106,23 @@ p{
     padding-bottom: 200px;
     padding-right: 80px;
 }
+@media only screen and (max-width: 1000px){
+    .socials{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .sub-section{
     display: flex;
     justify-content: space-around;
     padding: 80px;
+}
+@media only screen and (max-width: 1000px){
+    .sub-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 .sub-section-alternative{
     display: flex;
@@ -113,11 +134,17 @@ p{
     width: 300px;
     border-radius: 150px;
     margin-right: 100px;
-   
-
 }
+
 .information{
     margin-left: 100px;
+}
+@media only screen and (max-width: 1000px) {
+    .information{
+        display: flex;
+        flex-wrap:  wrap;
+    }
+    
 }
 
 .headshot-container{
@@ -125,6 +152,13 @@ p{
     align-items: center;
     
 }
+@media only screen and (max-width: 1000px){
+    .headshot-container{
+        display: flex;
+        flex-wrap:  wrap;
+    }
+}
+
 .project-card{
     width: 350px;
     height: 500px;
@@ -238,6 +272,7 @@ a{
     border-radius: 150px;
     margin-right: 200px;
 }
+
 
 .signature{
     text-align: right;

@@ -3,7 +3,6 @@ body{
     font-family: 'Bree Serif', serif;
 }
 section{
-
     background-image: radial-gradient(circle, darkgrey, white);
     border: solid red 2px;
 }
@@ -11,6 +10,7 @@ section{
     padding-left: 80px;
     padding-top: 30px;
     color: crimson;
+
 }
 .options{
     padding-right: 80px;
@@ -73,7 +73,7 @@ p{
 }
 
 .hero-text{
-    margin-left: 150px;
+    margin-left: 200px;
     margin-bottom: 200px;
 }
 .button{
@@ -112,11 +112,18 @@ p{
 .headshot{
     width: 300px;
     border-radius: 150px;
+    margin-right: 100px;
+   
 
 }
+.information{
+    margin-left: 100px;
+}
+
 .headshot-container{
     display: flex;
     align-items: center;
+    
 }
 .project-card{
     width: 350px;
@@ -159,9 +166,9 @@ a{
     outline: 0;
 }
 @media only screen and (max-width: 1000px){
-    .hamburger{
-        display: block;
-        border: 0;
+.hamburger{
+    display: block;
+    border: 0;
     background-color: transparent;
     color: white;
     font-size: 30px;
@@ -190,11 +197,12 @@ a{
     }
     
 }
+
 .twitter-image{
     background-color: white;
     width: 100px;
     border-radius: 150px;
-    margin-right: 80px;
+    margin-right: 200px;
     
     
 }
@@ -205,6 +213,7 @@ a{
     background-color: white;
     width: 100px;
     border-radius: 150px;
+    margin-right: 200px;
 }
 .linkedIn-image:hover{
     background-color: blue;
@@ -214,6 +223,7 @@ a{
     background-color: white;
     width: 100px;
     border-radius: 150px;
+    margin-right: 200px;
 }
 .github-image:hover{
     background-color: darkgrey;
@@ -225,13 +235,10 @@ a{
 .youtube-image{
     background-color: white;
     width: 100px;
-    border-radius: 150px
+    border-radius: 150px;
+    margin-right: 200px;
 }
-textarea {
-width: 250px;
-height: 10em;
-border: 2px red solid
-}
+
 .signature{
     text-align: right;
 }

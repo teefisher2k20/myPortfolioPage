@@ -154,6 +154,7 @@ p{
 
 .information{
     margin-left: 100px;
+    margin-right: 80px;
 }
 @media only screen and (max-width: 1000px) {
     .information{

@@ -12,6 +12,14 @@ section{
     color: crimson;
 
 }
+@media only screen and (max-width: 1000px){
+    .name{
+        color: white;
+        display: flex;
+        flex-wrap:  wrap;
+    }
+}
+
 .options{
     padding-right: 80px;
     padding-top: 10px;
@@ -84,6 +92,12 @@ p{
     margin-left: 100px;
     margin-bottom: 200px;
 }
+@media only screen and (max-width: 1000px){
+    .hero-text{
+        display: flex;
+        flex-wrap:  wrap; 
+    }
+}
 .button{
     width: 200px;
     height: 55px;
@@ -102,6 +116,8 @@ p{
     background-color: lawngreen;
     color: white;
 }
+
+
 .socials{
     padding-bottom: 200px;
     padding-right: 80px;

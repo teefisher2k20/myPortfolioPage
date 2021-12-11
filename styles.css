@@ -245,7 +245,7 @@ a{
     nav {
         display:flex;
         flex-direction: column-reverse;
-        background-color: darkblue;
+        background-color: black;
 
     }
     .logo {
